@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+   padding: 0;
+   text-decoration: none;
+}
+.head{
+    margin-left: 15%;
+    margin-right: 15%;
+    min-height: 60px;
+    height: 10vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.welcome{
+    color: white;
+    font-weight: bold;
+    padding: 3%;
+    font-size: 4vw;
+    text-align: center;
+    margin: 2px;
+    width: 50%;
+}
+.s_l{
+    width: 40%;
+    margin: 2px;
+    padding: 2%;
+    font-size: 2vw;
+    justify-content: center;
+    display: flex;
+}
+.signup{
+    margin: 2px;
+    width: 60%;
+    height: 100%;
+    max-height: 4vw;
+    text-align: right;
+    padding: 5%;
+}
+.login{
+    margin: 2px;
+    width: 40%;
+    height: 100%;
+    max-height: 4vw;
+    text-align: right;
+    padding: 5%;
+}
+.signup a{
+    color: white;
+    padding: 2%;
+}
+.login a{
+    color: white;
+    padding: 2%;
+}
+.signup a:hover{
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+}
+.login a:hover{
+    color: black;
+    border-radius: 20px;
+    background-color: white;
+}
+.info{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+}

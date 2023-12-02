@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.box{
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-top: 20px;
+    padding-right: 5%;
+    margin: 15%;
+    margin-top: 80px;
+    background-color: rgb(203, 199, 199);
+    width: 250px;
+    min-height: 240px;
+}
+input{
+    font-size: 16px;
+    width: 200px;
+    background: transparent;
+    line-height: 2;
+    padding: 3%;
+    padding-left: 4%;
+    margin: 6px;
+    border-radius: 5px;
+    color: black;
+}
+input::placeholder{
+    color: rgb(57, 56, 56);
+}
+input:hover{
+    background-color: rgb(129, 128, 128);
+    color: white;
+}
+button{
+    background: transparent;
+    padding: 2%;
+    margin: 6px;
+    margin-top: 8px;
+    line-height: 1;
+    border-radius: 8px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.message{
+    font-size: 18px;
+    padding: 2px;
+    padding-top: 8px;
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+}
